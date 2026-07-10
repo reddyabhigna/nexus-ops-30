@@ -1,3 +1,19 @@
+!pytest
+- name: Pytest summary
+  # You may pin to the exact commit or the version.
+  # uses: dariocurr/pytest-summary@596e6e4a5917f5fcc4cbcca1e3231f65bc3b3f47
+  uses: dariocurr/pytest-summary@v2.4
+  with:
+    # the pytest extensions to install along pytest
+    extensions: # optional
+    # the pytest options
+    options: # optional
+    # the path to the output file to create
+    output: # optional
+    # the path to the folder containing the tests
+    paths: # optional, default is tests
+    # which tests have to be shown in the summary
+    show: # optional
 name: Python Tests
 
 on: [push]
